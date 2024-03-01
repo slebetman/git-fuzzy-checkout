@@ -1,0 +1,15 @@
+{
+  "name": "git-fuzzy-checkout",
+  "version": "1.0.0",
+  "description": "Check out a branch by searching the reflog",
+  "main": "checkout.sh",
+  "bin": {
+  	"co": "./checkout.sh",
+  	"checkout": "./checkout.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-3-Clause"
+}
