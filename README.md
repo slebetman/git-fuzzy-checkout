@@ -2,6 +2,10 @@
 
 Checks out a branch by searching the branch name.
 
+## Install
+
+    npm install -g git-fuzzy-checkout
+
 ## This is a shell script
 
 Yes, that's right. This is a simple /bin/sh script.
@@ -11,7 +15,7 @@ Node package manager. NPM is simply the easiest way for me to distribute softwar
 
 ## Usage:
 
-> checkout some branch name
+    checkout some branch name
 
 Will search for branches that match `some.*branch.*name` so the word order is
 significant. If only one branch is found it will check out that branch otherwise
