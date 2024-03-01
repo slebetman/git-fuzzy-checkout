@@ -1,6 +1,6 @@
 {
   "name": "git-fuzzy-checkout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check out a branch by searching the reflog",
   "main": "checkout.sh",
   "bin": {

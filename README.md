@@ -17,6 +17,10 @@ Node package manager. NPM is simply the easiest way for me to distribute softwar
 
     checkout some branch name
 
+or
+
+    co some branch name
+
 Will search for branches that match `some.*branch.*name` so the word order is
 significant. If only one branch is found it will check out that branch otherwise
 it will dump all matching branches.
